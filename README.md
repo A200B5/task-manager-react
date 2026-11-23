@@ -33,4 +33,4 @@ npm run preview
 ```
 
 ## Live demo
-The verified deployment link will be added here after deployment.
+https://task-manager-react-brown-two.vercel.app/

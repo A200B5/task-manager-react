@@ -1,28 +1,36 @@
-# 🚀 Task Manager Pro
+# TaskFlow
 
-A simple and responsive Task Management web application built using React.js.
+A personal React task manager with browser-local storage.
 
-## ✨ Features
+## Features
 - Add, edit, and delete tasks
-- Mark tasks as completed
-- Clean and responsive UI
-- Persistent data using Local Storage
-- Component-based architecture
+- Set priorities and mark tasks complete
+- Filter all, pending, and completed tasks
+- View task counts and completion progress
+- Keep tasks saved locally in the browser
 
-## 🛠️ Tech Stack
-- React.js
-- JavaScript (ES6+)
-- HTML5
-- CSS3
+## Scope
+This is a frontend-only CRUD app. It has no backend, user accounts, or cross-device synchronization. Clearing local site data removes saved tasks.
 
-## 📸 Screenshots
-![Screenshot_9-4-2026_133051_localhost](https://github.com/user-attachments/assets/5f08d0b4-cae0-46eb-ba4c-f5a4b3429492)
+## Stack
+React, JavaScript, HTML, CSS, Vite.
 
+## Preview
+![TaskFlow interface with sample tasks](https://github.com/user-attachments/assets/5f08d0b4-cae0-46eb-ba4c-f5a4b3429492)
 
-## 📦 Installation
+## Run locally
+Install Node.js and npm, then run:
 
 ```bash
-git clone https://github.com/a200b5/task-manager-react.git
-cd task-manager-react
 npm install
-npm start
+npm run dev
+```
+
+## Production build
+```bash
+npm run build
+npm run preview
+```
+
+## Live demo
+The verified deployment link will be added here after deployment.
